@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLibraries", "ClassLibraries", "{221DBEE6-F878-4BD9-AC08-176BFC714924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{C23A2E7D-C3AF-4C5B-AF7B-08024B153BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTrends.Core", "WeatherTrends.Core\WeatherTrends.Core.csproj", "{9298AFDC-F500-463A-BAC8-15147F47EB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTrends.Domain", "WeatherTrends.Domain\WeatherTrends.Domain.csproj", "{DBD508E8-2C0B-4463-AFDA-D0647CECC727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTrends.Infrastructure", "WeatherTrends.Infrastructure\WeatherTrends.Infrastructure.csproj", "{87EB1D24-4024-4E87-9A5E-0148BD2D5CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTrends.ConsoleApp", "WeatherTrends.ConsoleApp\WeatherTrends.ConsoleApp.csproj", "{15E13A31-D4F8-4472-AF0F-BC8D12C2AB06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{1491A444-DA29-4CA7-B777-C12939907A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTrends.UnitTests", "WeatherTrends.UnitTests\WeatherTrends.UnitTests.csproj", "{465569EF-EADF-4B99-B930-8BF7ADFF98E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9298AFDC-F500-463A-BAC8-15147F47EB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9298AFDC-F500-463A-BAC8-15147F47EB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9298AFDC-F500-463A-BAC8-15147F47EB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9298AFDC-F500-463A-BAC8-15147F47EB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD508E8-2C0B-4463-AFDA-D0647CECC727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD508E8-2C0B-4463-AFDA-D0647CECC727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD508E8-2C0B-4463-AFDA-D0647CECC727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD508E8-2C0B-4463-AFDA-D0647CECC727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EB1D24-4024-4E87-9A5E-0148BD2D5CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EB1D24-4024-4E87-9A5E-0148BD2D5CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EB1D24-4024-4E87-9A5E-0148BD2D5CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EB1D24-4024-4E87-9A5E-0148BD2D5CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E13A31-D4F8-4472-AF0F-BC8D12C2AB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E13A31-D4F8-4472-AF0F-BC8D12C2AB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E13A31-D4F8-4472-AF0F-BC8D12C2AB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E13A31-D4F8-4472-AF0F-BC8D12C2AB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465569EF-EADF-4B99-B930-8BF7ADFF98E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465569EF-EADF-4B99-B930-8BF7ADFF98E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465569EF-EADF-4B99-B930-8BF7ADFF98E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465569EF-EADF-4B99-B930-8BF7ADFF98E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9298AFDC-F500-463A-BAC8-15147F47EB53} = {221DBEE6-F878-4BD9-AC08-176BFC714924}
+		{DBD508E8-2C0B-4463-AFDA-D0647CECC727} = {221DBEE6-F878-4BD9-AC08-176BFC714924}
+		{87EB1D24-4024-4E87-9A5E-0148BD2D5CEB} = {221DBEE6-F878-4BD9-AC08-176BFC714924}
+		{15E13A31-D4F8-4472-AF0F-BC8D12C2AB06} = {C23A2E7D-C3AF-4C5B-AF7B-08024B153BCD}
+		{465569EF-EADF-4B99-B930-8BF7ADFF98E5} = {1491A444-DA29-4CA7-B777-C12939907A17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7C7DFBC-3056-4E82-98E6-38085D2ACBF6}
+	EndGlobalSection
+EndGlobal
