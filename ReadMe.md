@@ -30,7 +30,7 @@ This project contains the unit tests for this application
 
 This application is developed using .Net Core 2.2. To run this application 
 
-1. Install .Net Core 2.2 Framework(https://dotnet.microsoft.com/download/dotnet-core/2.2)
+1. Install [.Net Core 2.2 Framework](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 2. In command line, navigate to `WeatherTrends` directory
 3. Execute
     ```
@@ -40,7 +40,7 @@ This application is developed using .Net Core 2.2. To run this application
     ```
     dotnet run
     ```
-5. Download input data from  this(http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=136&p_display_type=dailyDataFile&p_startYear=&p_c=&p_stn_num=066062) by clicking the button *All years of data* on top right of the page.
+5. Download input data from  [this](http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=136&p_display_type=dailyDataFile&p_startYear=&p_c=&p_stn_num=066062) by clicking the button **All years of data** on top right of the page.
 
 ### Sample Output
 
